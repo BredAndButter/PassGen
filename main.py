@@ -100,10 +100,10 @@ WIDTH = 800
 canvas = Canvas(root, height = HEIGHT, width = WIDTH, bg = "#bfbfbf")
 canvas.pack()
 
-errlabel = Label(root, font = 80, bg = "#0073e6")
+errlabel = Label(root, font = 80, bg = "#bfbfbf")
 errlabel.place(relx = 0.5, rely = 0.6, anchor = "center")
 
-passlabel = Label(root, font = 80, bg = "#0073e6")
+passlabel = Label(root, font = 80, bg = "#bfbfbf")
 passlabel.place(relx = 0.5, rely = 0.5, anchor = "center")
 
 lengthspace = Entry(root, bg = "#e6e6ff", font = 80, bd = 2)
