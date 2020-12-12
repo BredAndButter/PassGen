@@ -97,7 +97,7 @@ def on_focusout(event):
 HEIGHT = 700
 WIDTH = 800
 
-canvas = Canvas(root, height = HEIGHT, width = WIDTH, bg = "#0073e6")
+canvas = Canvas(root, height = HEIGHT, width = WIDTH, bg = "#bfbfbf")
 canvas.pack()
 
 errlabel = Label(root, font = 80, bg = "#0073e6")
@@ -115,7 +115,7 @@ lengthspace.bind('<FocusOut>', on_focusout)
 genbutton = Button(root, font = 80, text = "Generate New Password", bd = 2, command = GenPass)
 genbutton.place(relx = 0.65, rely = 0.75, anchor = "center")
 
-encryptbutton = Button(root, font = 80, text = "Encrypt Password To File", bd = 2, command = Encryptpass)
+encryptbutton = Button(root, font = 80, text = "Encrypt Password", bd = 2, command = Encryptpass)
 encryptbutton.place(relx = 0.35, rely = 0.35, anchor = "center")
 
 decryptbutton = Button(root, font = 80, text = "Decrypt Password", bd = 2, command = Decryptpass)
